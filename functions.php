@@ -21,3 +21,8 @@ add_action('wp_enqueue_scripts', function() {
 	/* その他の読み込みファイルはこの下に記述 */
 
 }, 11);
+
+// デプロイテスト用のコードを追加
+function deploy_test() {
+	echo 'デプロイテスト';
+}
