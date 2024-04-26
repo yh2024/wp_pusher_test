@@ -26,3 +26,8 @@ add_action('wp_enqueue_scripts', function() {
 function deploy_test() {
 	echo 'デプロイテスト';
 }
+
+// デプロイテスト用のコードを追加2
+function deploy_test2() {
+	echo 'デプロイテスト2';
+}
